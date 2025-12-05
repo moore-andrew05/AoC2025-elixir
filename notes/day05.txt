@@ -1,0 +1,1 @@
+Very interesting today. I thought it would be easy to solve with binary search, but the real difficulty is in the range overlaps. I don't even know why how I solved part 1 originally worked (commented out at bottom). But, holy is chunk_while OP. Really cool tool, and really felt the power of elixir today. part2 pretty much just forced me to solve part1 the right way.
