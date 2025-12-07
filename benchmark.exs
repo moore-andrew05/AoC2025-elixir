@@ -8,5 +8,4 @@ Benchee.run(%{
   "#{day}.part1" => fn -> day_module.part1() end,
   "#{day}.part2" => fn -> day_module.part2() end,
 },
-warmup: 4,
 parallel: 1)
