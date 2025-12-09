@@ -109,7 +109,8 @@ defmodule Aoc2025.Day07 do
       |> List.to_tuple()
 
     memo()
-    dfs(starting_pos, 0, splitter_positions, tuple_size(splitter_positions) - 1)
+    val = dfs(starting_pos, 0, splitter_positions, tuple_size(splitter_positions) - 1)
     memo_teardown()
+    val
   end
 end
