@@ -109,14 +109,8 @@ defmodule Aoc2025.Day07 do
       |> List.to_tuple()
 
     memo()
-<<<<<<< Updated upstream
     val = dfs(starting_pos, 0, splitter_positions, tuple_size(splitter_positions) - 1)
     memo_teardown()
     val
-=======
-    res = dfs(starting_pos, 0, splitter_positions, tuple_size(splitter_positions) - 1)
-    memo_teardown()
-    res
->>>>>>> Stashed changes
   end
 end
