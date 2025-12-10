@@ -300,8 +300,6 @@ defmodule Aoc2025.Day09 do
 
     Enum.reduce(sorted_rectanges, [], fn rectangle, valid ->
       {area, rect} = rectangle
-      # IO.puts("Checking rect of size #{area}")
-      # IO.inspect(rect)
 
       case IrregularGridPolygon.rect_inside?(polygon, rect) do
         true ->
