@@ -14,6 +14,7 @@ defmodule Aoc2025.Day10Test do
 
   describe "part2/1" do
     test "part2 description" do
+      assert Day10.part2(@puzzle_input) == 33
     end
   end
 end
